@@ -9,3 +9,11 @@ function makeConfirm() {
     alert("no press korco keno");
   }
 }
+function makePrompt() {
+  const prompting = prompt();
+  if (prompting === "Yes") {
+    alert("its working mama");
+  } else {
+    alert("not working your prompting");
+  }
+}
